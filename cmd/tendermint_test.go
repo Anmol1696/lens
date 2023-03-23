@@ -15,7 +15,7 @@ import (
 	coretypes "github.com/tendermint/tendermint/rpc/core/types"
 	"github.com/tendermint/tendermint/types"
 
-	"github.com/Anmol1696/lens/cmd"
+	"github.com/strangelove-ventures/lens/cmd"
 )
 
 func TestTendermintBlock_SpecificHeight(t *testing.T) {

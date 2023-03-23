@@ -11,7 +11,7 @@ import (
 	"go.uber.org/zap"
 	"gopkg.in/yaml.v2"
 
-	"github.com/Anmol1696/lens/client"
+	"github.com/strangelove-ventures/lens/client"
 )
 
 // createConfig idempotently creates the config.

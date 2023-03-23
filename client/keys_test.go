@@ -5,7 +5,7 @@ import (
 
 	"go.uber.org/zap/zaptest"
 
-	"github.com/Anmol1696/lens/client"
+	"github.com/strangelove-ventures/lens/client"
 )
 
 // TestKeyRestore restores a test mnemonic

@@ -15,7 +15,7 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/Anmol1696/lens/client"
+	"github.com/strangelove-ventures/lens/client"
 )
 
 type ChainInfo struct {

@@ -8,7 +8,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zaptest"
 
-	"github.com/Anmol1696/lens/cmd"
+	"github.com/strangelove-ventures/lens/cmd"
 )
 
 // System is a system under test.

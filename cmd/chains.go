@@ -12,7 +12,7 @@ import (
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 
-	"github.com/Anmol1696/lens/client/chain_registry"
+	"github.com/strangelove-ventures/lens/client/chain_registry"
 )
 
 func chainsCmd(a *appState) *cobra.Command {

@@ -1,4 +1,4 @@
-module github.com/Anmol1696/lens
+module github.com/strangelove-ventures/lens
 
 go 1.19
 

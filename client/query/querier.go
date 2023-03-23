@@ -9,7 +9,7 @@ import (
 	channeltypes "github.com/cosmos/ibc-go/v7/modules/core/04-channel/types"
 	coretypes "github.com/tendermint/tendermint/rpc/core/types"
 
-	"github.com/Anmol1696/lens/client"
+	"github.com/strangelove-ventures/lens/client"
 )
 
 type Query struct {

@@ -13,5 +13,5 @@ done
 # move proto files to the right places
 #
 # Note: Proto files are suffixed with the current binary version.
-cp -r github.com/Anmol1696/lens/* ./
+cp -r github.com/strangelove-ventures/lens/* ./
 rm -rf github.com

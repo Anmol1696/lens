@@ -8,7 +8,7 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	"github.com/spf13/cobra"
 
-	"github.com/Anmol1696/lens/client/query"
+	"github.com/strangelove-ventures/lens/client/query"
 )
 
 func bankSendCmd(a *appState) *cobra.Command {

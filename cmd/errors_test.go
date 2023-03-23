@@ -7,8 +7,8 @@ import (
 	"github.com/jhump/protoreflect/desc/builder"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Anmol1696/lens/client"
-	"github.com/Anmol1696/lens/cmd"
+	"github.com/strangelove-ventures/lens/client"
+	"github.com/strangelove-ventures/lens/cmd"
 )
 
 func TestChainNotFoundError(t *testing.T) {

@@ -10,7 +10,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/distribution/types"
 	"github.com/spf13/cobra"
 
-	"github.com/Anmol1696/lens/client/query"
+	"github.com/strangelove-ventures/lens/client/query"
 )
 
 const (

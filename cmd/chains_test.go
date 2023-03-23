@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap/zaptest"
 
-	"github.com/Anmol1696/lens/client"
+	"github.com/strangelove-ventures/lens/client"
 )
 
 func TestChainsShow_MissingArg(t *testing.T) {

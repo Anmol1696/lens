@@ -25,8 +25,8 @@ import (
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 
-	"github.com/Anmol1696/lens/client"
-	"github.com/Anmol1696/lens/client/query"
+	"github.com/strangelove-ventures/lens/client"
+	"github.com/strangelove-ventures/lens/client/query"
 )
 
 // tendermintCmd represents the tendermint command
