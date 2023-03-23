@@ -8,8 +8,8 @@ builds:
   - id: "lens"
     main: ./main.go
     ldflags:
-      - -X github.com/strangelove-ventures/lens/cmd.Version={{ .Tag }}
-      - -X github.com/strangelove-ventures/lens/cmd.Commit={{ .FullCommit }}
+      - -X github.com/Anmol1696/lens/cmd.Version={{ .Tag }}
+      - -X github.com/Anmol1696/lens/cmd.Commit={{ .FullCommit }}
     goos:
       - darwin
       - linux

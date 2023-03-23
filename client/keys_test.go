@@ -3,8 +3,9 @@ package client_test
 import (
 	"testing"
 
-	"github.com/strangelove-ventures/lens/client"
 	"go.uber.org/zap/zaptest"
+
+	"github.com/Anmol1696/lens/client"
 )
 
 // TestKeyRestore restores a test mnemonic

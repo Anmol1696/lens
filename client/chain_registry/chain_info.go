@@ -12,9 +12,10 @@ import (
 	"time"
 
 	"github.com/spf13/viper"
-	"github.com/strangelove-ventures/lens/client"
 	"go.uber.org/zap"
 	"golang.org/x/sync/errgroup"
+
+	"github.com/Anmol1696/lens/client"
 )
 
 type ChainInfo struct {
@@ -230,6 +231,6 @@ func (c ChainInfo) GetChainConfig(ctx context.Context) (*client.ChainClientConfi
 		Timeout:        "20s",
 		OutputFormat:   "json",
 		SignModeStr:    "direct",
-		Slip44:			c.Slip44,
+		Slip44:         c.Slip44,
 	}, nil
 }

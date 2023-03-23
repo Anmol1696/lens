@@ -7,7 +7,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/spf13/cobra"
-	"github.com/strangelove-ventures/lens/client"
+
+	"github.com/Anmol1696/lens/client"
 )
 
 // crosschainCmd represents the command to get balances across chains

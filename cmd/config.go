@@ -8,12 +8,13 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	"github.com/spf13/cobra"
-	"github.com/strangelove-ventures/lens/client"
 	"go.uber.org/zap"
 	"gopkg.in/yaml.v2"
+
+	"github.com/Anmol1696/lens/client"
 )
 
-//createConfig idempotently creates the config.
+// createConfig idempotently creates the config.
 func createConfig(home string, debug bool) error {
 	cfgPath := path.Join(home, "config.yaml")
 

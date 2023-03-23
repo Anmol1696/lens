@@ -7,7 +7,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
-	"github.com/strangelove-ventures/lens/client/query"
+
+	"github.com/Anmol1696/lens/client/query"
 )
 
 const (
