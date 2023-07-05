@@ -5,17 +5,16 @@ import (
 	"testing"
 	"time"
 
+	"github.com/cometbft/cometbft/libs/bytes"
+	"github.com/cometbft/cometbft/p2p"
+	"github.com/cometbft/cometbft/rpc/client/mocks"
+	coretypes "github.com/cometbft/cometbft/rpc/core/types"
+	"github.com/cometbft/cometbft/types"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
+	"github.com/strangelove-ventures/lens/cmd"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
-	"github.com/tendermint/tendermint/libs/bytes"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/rpc/client/mocks"
-	coretypes "github.com/tendermint/tendermint/rpc/core/types"
-	"github.com/tendermint/tendermint/types"
-
-	"github.com/strangelove-ventures/lens/cmd"
 )
 
 func TestTendermintBlock_SpecificHeight(t *testing.T) {
